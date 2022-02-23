@@ -16,6 +16,10 @@
 		972E888827C60EBC00E2BF94 /* UIMenuDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972E888727C60EBC00E2BF94 /* UIMenuDemoTests.swift */; };
 		972E889227C60EBC00E2BF94 /* UIMenuDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972E889127C60EBC00E2BF94 /* UIMenuDemoUITests.swift */; };
 		972E889427C60EBC00E2BF94 /* UIMenuDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972E889327C60EBC00E2BF94 /* UIMenuDemoUITestsLaunchTests.swift */; };
+		972E88A227C6434500E2BF94 /* CountryIDDSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972E88A027C6434400E2BF94 /* CountryIDDSelectionVC.swift */; };
+		972E88A327C6434500E2BF94 /* CountryIDDSelectionVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 972E88A127C6434400E2BF94 /* CountryIDDSelectionVC.xib */; };
+		976981DA27C65833004B6741 /* CountryIddCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976981D827C65833004B6741 /* CountryIddCell.swift */; };
+		976981DB27C65833004B6741 /* CountryIddCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 976981D927C65833004B6741 /* CountryIddCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		972E888D27C60EBC00E2BF94 /* UIMenuDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIMenuDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		972E889127C60EBC00E2BF94 /* UIMenuDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIMenuDemoUITests.swift; sourceTree = "<group>"; };
 		972E889327C60EBC00E2BF94 /* UIMenuDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIMenuDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		972E88A027C6434400E2BF94 /* CountryIDDSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryIDDSelectionVC.swift; sourceTree = "<group>"; };
+		972E88A127C6434400E2BF94 /* CountryIDDSelectionVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryIDDSelectionVC.xib; sourceTree = "<group>"; };
+		976981D827C65833004B6741 /* CountryIddCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryIddCell.swift; sourceTree = "<group>"; };
+		976981D927C65833004B6741 /* CountryIddCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryIddCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,9 @@
 		972E886F27C60EB600E2BF94 /* UIMenuDemo */ = {
 			isa = PBXGroup;
 			children = (
+				976981DC27C6583A004B6741 /* TableCell */,
+				972E88A027C6434400E2BF94 /* CountryIDDSelectionVC.swift */,
+				972E88A127C6434400E2BF94 /* CountryIDDSelectionVC.xib */,
 				972E887027C60EB600E2BF94 /* AppDelegate.swift */,
 				972E887227C60EB600E2BF94 /* SceneDelegate.swift */,
 				972E887427C60EB600E2BF94 /* ViewController.swift */,
@@ -125,6 +136,15 @@
 				972E889327C60EBC00E2BF94 /* UIMenuDemoUITestsLaunchTests.swift */,
 			);
 			path = UIMenuDemoUITests;
+			sourceTree = "<group>";
+		};
+		976981DC27C6583A004B6741 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				976981D827C65833004B6741 /* CountryIddCell.swift */,
+				976981D927C65833004B6741 /* CountryIddCell.xib */,
+			);
+			path = TableCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +252,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				972E887D27C60EBB00E2BF94 /* LaunchScreen.storyboard in Resources */,
+				976981DB27C65833004B6741 /* CountryIddCell.xib in Resources */,
 				972E887A27C60EBB00E2BF94 /* Assets.xcassets in Resources */,
+				972E88A327C6434500E2BF94 /* CountryIDDSelectionVC.xib in Resources */,
 				972E887827C60EB600E2BF94 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,8 +280,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				976981DA27C65833004B6741 /* CountryIddCell.swift in Sources */,
 				972E887527C60EB600E2BF94 /* ViewController.swift in Sources */,
 				972E887127C60EB600E2BF94 /* AppDelegate.swift in Sources */,
+				972E88A227C6434500E2BF94 /* CountryIDDSelectionVC.swift in Sources */,
 				972E887327C60EB600E2BF94 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

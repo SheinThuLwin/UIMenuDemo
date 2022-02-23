@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CountryIDDSelectionVC" customModule="UIMenuDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="tbl" destination="68x-x0-55a" id="18Q-hj-Eri"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="vwNotFound" destination="dIL-Gj-XKc" id="XPw-sQ-nUh"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="68x-x0-55a">
+                    <rect key="frame" x="8" y="0.0" width="398" height="774"/>
+                    <color key="backgroundColor" red="1" green="1" blue="0.99607843137254903" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dIL-Gj-XKc" userLabel="vwNotFound">
+                    <rect key="frame" x="8" y="0.0" width="398" height="774"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Data not found." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XCO-4q-8DL">
+                            <rect key="frame" x="8" y="377" width="358" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="0.99607843137254903" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="1" green="1" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="dIL-Gj-XKc" firstAttribute="leading" secondItem="68x-x0-55a" secondAttribute="leading" id="Gdx-7u-mV1"/>
+                <constraint firstItem="68x-x0-55a" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="KCy-l7-WcP"/>
+                <constraint firstItem="dIL-Gj-XKc" firstAttribute="bottom" secondItem="68x-x0-55a" secondAttribute="bottom" id="QnL-RC-GFG"/>
+                <constraint firstItem="dIL-Gj-XKc" firstAttribute="top" secondItem="68x-x0-55a" secondAttribute="top" id="TrX-ks-Jwo"/>
+                <constraint firstItem="68x-x0-55a" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="8" id="YiO-1F-kNz"/>
+                <constraint firstItem="dIL-Gj-XKc" firstAttribute="trailing" secondItem="68x-x0-55a" secondAttribute="trailing" id="Yq2-KH-XFF"/>
+                <constraint firstItem="68x-x0-55a" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="lyx-Uo-Y2E"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="68x-x0-55a" secondAttribute="trailing" constant="8" id="qIi-El-S2L"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" translucent="NO"/>
+            <point key="canvasLocation" x="131.8840579710145" y="76.339285714285708"/>
+        </view>
+    </objects>
+</document>
